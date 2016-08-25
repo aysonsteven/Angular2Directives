@@ -19,3 +19,5 @@ These are the samples of Angular2 Directives.
     
 # Custom Directives.
     Custom Directives are custom made Attribute directives.
+# Documentation:
+https://docs.google.com/document/d/1UgtIjJZ461nVA4-Jo_pbDWshXZEKr8nLOhX55p6ZEl4/edit?usp=sharing
