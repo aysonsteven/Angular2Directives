@@ -1,31 +1,12 @@
 # Angular2Directives
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.10.
+These are the samples of Angular2 Directives.
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/route/class`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/). 
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Deploying to Github Pages
-
-Run `ng github-pages:deploy` to deploy to Github Pages.
-
-## Further help
-
-To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# Component
+    The Component is really a directive with a template. It's the most common of the three directives and we write lots of them as we build our application.
+# Structural Directives. 
+    A Structural directive changes the DOM layout by adding and removing DOM elements. We've seen three of the built-in structural directives in other chapters: ngIf, ngSwitch and ngFor.
+# Attribute Directives.
+    The Attribute directive changes the appearance or behavior of an element. The built-in NgStyle directive, for example, can change several element styles at the same time. We can use it to render text bold, italic, and lime green by binding to a component property that requests such a sickening result.
+# Custom Directives.
+    Custom Directives are custom made Attribute directives.
