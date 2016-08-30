@@ -1,0 +1,20 @@
+<h3> {{ structTitle.title }} </h3>
+
+<!-- -----------------------------*ngFor Structural Directives------------------------------- -->
+<hr/>
+<h4> {{ structTitle.ngforDir }} </h4>
+
+<ul>
+    <li *ngFor="let structures of structuresItems"> {{ structures }} </li>
+</ul>
+<hr/>
+<!-- -----------------------------*ngFor Structural Directives------------------------------- -->
+
+
+<!-- -----------------------------*ngIf Structural Directives------------------------------- -->
+<hr/>
+<h4> {{ structTitle.ngifDir }} </h4>
+<button class="btn btn-primary" (click)="isClicked()"> Click me! </button>
+<div *ngIf="turn"> Dummy Div </div>
+<hr/>
+<!-- -----------------------------*ngIf Structural Directives------------------------------- -->

@@ -1,0 +1,22 @@
+<h3> {{ attrTitle.title }} </h3>
+
+<!-- -----------------------------ngClass Attribute Directives------------------------------- -->
+<hr/>
+<h4> {{ attrTitle.ngclassDir }} </h4>
+<div [ngClass]="{sampleAttrDir: true}"> Test  </div>
+<hr/>
+<!-- -----------------------------ngClass Attribute Directives------------------------------- -->
+
+
+<!-- -----------------------------ngStyle Attribute Directives------------------------------- -->
+<hr/>
+<h4> {{ attrTitle.ngstyleDir }} </h4>
+<button class="btn btn-primary" [ngStyle]="{'background-color': 'grey'}"> ngstyle </button>
+<hr/>
+<!-- -----------------------------ngStyle Attribute Directives------------------------------- -->
+
+
+<!-- -----------------------------Custom Directives------------------------------- -->
+<h5>Custom Attribute Directives</h5>
+
+<input type="text" highlight />
