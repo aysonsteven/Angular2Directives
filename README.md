@@ -3,21 +3,21 @@
 These are the samples of Angular2 Directives.
 
 # Component
-    The Component is really a directive with a template. 
-    It's the most common of the three directives and we write lots of them as we build our application.
+    Components are also directives. 
+    Since directives are instructions components are directives because of the selectors, 
+    whenever you use the custom tags which is the selector of your component you instruct or tell
+    angular that you want to display the content(template/html) of your component.
     
 # Structural Directives. 
-    A Structural directive changes the DOM layout by adding and removing DOM elements. 
-    We've seen three of the built-in structural directives in other chapters: ngIf, ngSwitch and ngFor.
+    A Structural directives are one of the most usefull directives for me, because these are the one that manipulates
+    and control the DOM or Html elements. 
     
 # Attribute Directives.
-    The Attribute directive changes the appearance or behavior of an element. 
-    The built-in NgStyle directive, for example, 
-    can change several element styles at the same time. 
-    We can use it to render text bold, italic, 
-    and lime green by binding to a component property that requests such a sickening result.
+    Attribute directive changes the appearance or behavior of an element. 
+    You can control the styles and behavior of an element, you can modify several elements at the same time.
     
 # Custom Directives.
     Custom Directives are custom made Attribute directives.
+    
 # Documentation:
 https://docs.google.com/document/d/1UgtIjJZ461nVA4-Jo_pbDWshXZEKr8nLOhX55p6ZEl4/edit?usp=sharing
